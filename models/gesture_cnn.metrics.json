@@ -1,0 +1,43 @@
+{
+  "classes": [
+    "hand_raise",
+    "none",
+    "thumbs_up"
+  ],
+  "best_val_acc": 0.9253731343283582,
+  "best_macro_f1": 0.9238886005881336,
+  "final_report_text": "              precision    recall  f1-score   support\n\n  hand_raise       0.84      0.95      0.89        22\n        none       1.00      1.00      1.00        23\n   thumbs_up       0.95      0.82      0.88        22\n\n    accuracy                           0.93        67\n   macro avg       0.93      0.92      0.92        67\nweighted avg       0.93      0.93      0.93        67\n",
+  "best_report": {
+    "hand_raise": {
+      "precision": 0.84,
+      "recall": 0.9545454545454546,
+      "f1-score": 0.8936170212765957,
+      "support": 22.0
+    },
+    "none": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "thumbs_up": {
+      "precision": 0.9473684210526315,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.8780487804878049,
+      "support": 22.0
+    },
+    "accuracy": 0.9253731343283582,
+    "macro avg": {
+      "precision": 0.9291228070175438,
+      "recall": 0.9242424242424243,
+      "f1-score": 0.9238886005881336,
+      "support": 67.0
+    },
+    "weighted avg": {
+      "precision": 0.9301806755695208,
+      "recall": 0.9253731343283582,
+      "f1-score": 0.9250245916241315,
+      "support": 67.0
+    }
+  }
+}
